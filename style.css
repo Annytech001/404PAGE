@@ -19,8 +19,10 @@ body{
     margin: 0;
     font-weight: 1200;
     letter-spacing: 20px;
-    background: url(./images/winter\ .jpeg) 
-       
+    background: url(./images/winter\ .jpeg);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
 }
 .container a{
     text-decoration: none;
